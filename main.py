@@ -1,7 +1,7 @@
 import sys
 
 
-def singleMap(string1, string2):
+def isMappable(string1, string2):
     dict = {}
 
     # Only mappable if string1 is shorter than string2
@@ -20,4 +20,4 @@ def singleMap(string1, string2):
 if __name__ == "__main__":
     str1 = sys.argv[1]
     str2 = sys.argv[2]
-    print(singleMap(str1, str2))
+    print(isMappable(str1, str2))
